@@ -1,0 +1,69 @@
+# marks=int(input("enter a marks"))
+# if marks>80:
+#     print("A")
+# elif marks>60 & marks<80:
+#     print("B")
+# elif marks>50 & marks<60:
+#     print("E")
+# elif marks>45 & marks<50:
+#     print("D")
+# elif marks>25 & marks<45:
+#     print("C")
+# elif marks>25:
+#     print("F")
+# else:
+#     print("fail")
+
+
+
+# average=total/subtotal
+# percentage=(total/50)*100
+# sub1=int(input("enter a physics marks"))
+# sub2=int(input("enter a chemistry marks"))
+# sub3=int(input("enter a bio marks"))
+# sub4=int(input("enter a math marks"))
+# sub5=int(input("enter a computer marks"))
+# totalmarks=500
+# total=sub1+sub2+sub3+sub4+sub5
+# percentage=(total/500)*100
+# if percentage>=90:
+#     print("grade a")
+# elif percentage<90 and percentage>=80:
+#     print("grade b")
+# elif percentage<80 and percentage>=70:
+#     print("grade c")
+# elif percentage<70 and percentage>=60:
+#     print("grade d")
+# elif percentage<60 and percentage<=40:
+#     print("e")
+# else:
+#     print("grade f")
+
+
+marks1=int(input("enter a physics marks"))
+marks2=int(input("enter a math marks"))
+marks3=int(input("enter a chemistry marks"))
+marks4=int(input("enter a computer marks"))
+marks5=int(input("enter a bio marks"))
+sum_marks=marks1+marks2+marks3+marks4+marks5
+totalmarks=500
+percentage=sum_marks/totalmarks*100
+if percentage>=90:
+    print("grade a")
+elif percentage<90 and percentage>=80:
+    print("grade b")
+elif percentage<80 and percentage>=70:
+    print("grade c")
+elif percentage<70 and percentage>=60:
+    print("grade d")
+elif percentage<60 and percentage>=40:
+    print("grade e")
+else:
+    print("grade f")
+
+
+
+
+
+
+

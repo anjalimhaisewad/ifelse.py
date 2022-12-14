@@ -1,0 +1,16 @@
+# age=int(input("enter your age"))
+# dose=int(input("enter your dose"))
+# if age<18:
+#     if dose==0:
+#         print("age is not eligible to taking dose")
+# if age>=18:
+#     if dose==1:
+#         print("first dose has completed")
+#     elif dose==2:
+#         print("second dose has completed")
+#     elif dose==3:
+#         print("precaution dose has completed")
+#     else:
+#         print("you have completed 1st,2nd dose and 3rd dose")
+# else:
+#     ("eligible to taking dose")
